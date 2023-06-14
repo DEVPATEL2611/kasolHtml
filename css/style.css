@@ -12,14 +12,56 @@
 .txt-clr-span{
     color: rgb(26, 95, 26);
 }
+.active-clr{
+    color:  rgb(38, 58, 41);  
+}
+.tag-content{
+    margin-top: 8%;
+    margin-left: 8%;
+    
+}
 .tag-line{
     background-color: rgba(219, 218, 217, 0.5);
-    width:28%;
-    font-size: 18px;
+    width:24%;
+    font-size: 16px;
     padding: 10px 15px;
     text-align: center;
     border-radius: 50px;
+    color:  rgb(38, 58, 41);  
+}
+.tag-line-headings h2{
+    font-size: 60px;
+    margin-top: 20px;
+    color:  rgb(38, 58, 41);  
+}
+.tag-line-headings h1{
+    font-size: 80px;
+    font-weight: 700;
+    color:  rgb(38, 58, 41);  
+    margin-bottom: 40px;
+}
+.nav-hover:hover{
+    color:  rgb(38, 58, 41);
+}
+.nav-hover-item:hover{
+    border-bottom: 2px solid rgb(38, 58, 41);
+}
+.explore-btn{
+    background-color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color:  rgb(38, 58, 41);
+}
+.k-hover{
+    background-color:  rgba(38, 58, 41,0.8);
+    padding: 10px 30px;
+    border-radius: 30px;
+}
+.explore-btn:hover{
+    background-color:  rgba(38, 58, 41,0.8);
     color: white;
-    margin-top: 8%;
-    margin-left: 8%;
+}
+.end-div{
+    background-color: antiquewhite;
 }
