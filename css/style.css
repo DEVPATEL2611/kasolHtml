@@ -14,10 +14,12 @@
 }
 .tag-line{
     background-color: rgba(219, 218, 217, 0.5);
-    width:23%;
+    width:28%;
     font-size: 18px;
     padding: 10px 15px;
     text-align: center;
-border-radius: 50px;
-color: white;
+    border-radius: 50px;
+    color: white;
+    margin-top: 8%;
+    margin-left: 8%;
 }
