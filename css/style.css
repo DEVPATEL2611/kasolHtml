@@ -1,86 +1,107 @@
-.landing-section{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.landing-section {
     height: 100vh;
     background-image: url("../images/LandingPage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+
     background-position: center;
 }
-.nav-bgc{
-    background-color: rgba(60, 98, 85,0.7);
-  
+
+.nav-bgc {
+    background-color: rgba(60, 98, 85, 0.7);
+
 }
-.txt-clr-span{
+
+.txt-clr-span {
     color: rgb(26, 95, 26);
 }
-.active-clr{
-    color:  rgb(38, 58, 41);  
+
+.active-clr {
+    color: rgb(38, 58, 41);
 }
-.tag-content{
+
+.tag-content {
     margin-top: 8%;
     margin-left: 8%;
-    
+
 }
-.tag-line{
+
+.tag-line {
     background-color: rgba(219, 218, 217, 0.5);
-    width:350px;
+    width: 350px;
     padding: 10px 15px;
     text-align: center;
     border-radius: 50px;
-    color:  rgb(38, 58, 41);  
+    color: rgb(38, 58, 41);
     margin-top: 140px;
     font-size: 14px;
 }
-.tag-line-headings h2{
+
+.tag-line-headings h2 {
     margin-top: 20px;
-    color:  rgb(38, 58, 41);  
+    color: rgb(38, 58, 41);
     margin-bottom: 15px;
     font-size: 50px;
     font-weight: 300;
 }
-.tag-line-headings h1{
+
+.tag-line-headings h1 {
     font-size: 60px;
     font-weight: 400;
-    color:  rgb(38, 58, 41);  
+    color: rgb(38, 58, 41);
     margin-bottom: 40px;
 }
-.nav-hover:hover{
-    color:  rgb(38, 58, 41);
+
+.nav-hover:hover {
+    color: rgb(38, 58, 41);
 }
-.nav-hover-item:hover{
+
+.nav-hover-item:hover {
     border-bottom: 2px solid rgb(38, 58, 41);
 }
-.explore-btn{
+
+.explore-btn {
     background-color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 20px;
-    color:  rgb(38, 58, 41);
+    color: rgb(38, 58, 41);
 }
+
 /* .k-hover{
     background-color:  rgba(38, 58, 41,0.8);
     padding: 10px 30px;
     border-radius: 30px;
 } */
-.explore-btn:hover{
-    background-color:  rgba(38, 58, 41,0.8);
+.explore-btn:hover {
+    background-color: rgba(38, 58, 41, 0.8);
     color: white;
+    text-decoration: none;
 }
-.end-div{
+
+.end-div {
     margin-top: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
- 
+
 }
-.end-div p{
+
+.end-div p {
     height: 100px;
     width: 250px;
     margin-left: 20px;
     color: white;
     padding-top: 15px;
 }
-.iconnn{
-    background-color: rgba(38, 58, 41,0.8);
+
+.iconnn {
+    background-color: rgba(38, 58, 41, 0.8);
     border-radius: 50%;
     font-size: 40px;
     height: 50px;
@@ -90,74 +111,91 @@
     text-align: center;
 }
 
-.info{
-    padding-top: 40px;
+.info {
     margin-bottom: 40px;
+ 
+    padding: 40px;
 }
-.info div{
+
+.info div {
     max-width: 550px;
 }
-.info h2{
- 
+
+.info h2 {
+
     font-size: 50px;
 }
-.info p{
+
+.info p {
     line-height: 1.5em;
     font-size: 18px;
 }
-.dark-btn{
+
+.dark-btn {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
     border-radius: 25px;
-    background-color:  rgb(38, 58, 41);
+    background-color: rgb(38, 58, 41);
     border: 2px solid rgb(38, 58, 41);
 }
-.dark-btn:hover{
-    color:  rgb(38, 58, 41);
+
+.dark-btn:hover {
+    color: rgb(38, 58, 41);
+    text-decoration: none;
     background-color: transparent;
 }
-.light-btn{
+
+.light-btn {
     text-decoration: none;
     padding: 8px 20px;
     border-radius: 25px;
-    color:  rgb(38, 58, 41);
+    color: rgb(38, 58, 41);
     border: 2px solid rgb(38, 58, 41);
     margin-left: 20px;
 }
-.light-btn:hover{
-    background-color:  rgb(38, 58, 41);
+
+.light-btn:hover {
+    background-color: rgb(38, 58, 41);
     color: white;
+    text-decoration: none;
 }
-.butonss{
+
+.butonss {
     margin-top: 30px;
 }
-.long-img{
+
+.long-img {
     background-image: url("../images/1.jpg");
     height: 300px;
     background-size: cover;
 }
-.long1-img{
+
+.long1-img {
     background-image: url("../images/2.jpg");
     height: 300px;
     background-size: cover;
 }
-.long2-img{
+
+.long2-img {
     background-image: url("../images/3.jpeg");
     height: 300px;
     background-size: cover;
 }
-.long3-img{
+
+.long3-img {
     background-image: url("../images/4.jpg");
     height: 300px;
     background-size: cover;
 }
-.long4-img{
+
+.long4-img {
     background-image: url("../images/5.jpg");
     height: 300px;
     background-size: cover;
 }
-.img-text{
+
+.img-text {
     display: inline-block;
     margin-top: 15px;
     margin-left: 15px;
@@ -165,21 +203,103 @@
     font-size: 18px;
     font-weight: 500;
     border: 2px solid white;
-    background-color: rgba(144, 143, 143,0.5);
+    background-color: rgba(144, 143, 143, 0.5);
     padding: 10px;
     text-align: center;
 }
-.photo-grid{
+
+.img-text:hover {
+    background-color: white;
+    color: black;
+    
+}
+
+.photo-grid {
     /* background-color: rgba(60, 98, 85,0.7); */
     padding-bottom: 40px;
 }
-@media screen  and (max-width:796px){
-   
-    .end-div{
-       margin-top: 160px;
-       
+
+.mid-content {
+    background-color: rgb(38, 58, 41);
+}
+
+.mid-content p {
+    padding: 5% 8%;
+    color: white;
+    font-size: 18px;
+}
+.hotel-heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hotel-heading h1{
+    padding: 50px 230px;
+    font-size: 60px;
+    text-align: center;
+}
+.portfolio-menu{
+	text-align:center;
+}
+.portfolio-menu ul li{
+	display:inline-block;
+	margin:0;
+	list-style:none;
+	padding:10px 15px;
+	cursor:pointer;
+	-webkit-transition:all 05s ease;
+	-moz-transition:all 05s ease;
+	-ms-transition:all 05s ease;
+	-o-transition:all 05s ease;
+	transition:all .5s ease;
+}
+
+.portfolio-item .item{
+	/*width:303px;*/
+	float:left;
+	margin-bottom:10px;
+}
+.attraction-section{
+    display: block;
+    flex-direction: column;
+}
+.attraction-section h1{
+    padding: 50px 200px;
+    font-size: 60px;
+    text-align: center;
+}
+@media screen and (max-width:500px) {
+    .tag-line-headings h1 {
+        font-size: 40px;
     }
-    
-   
-    
+
+    .tag-line {
+        width: 300px;
+    }
+
+    .tag-line-headings h2 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .end-div {
+        margin-top: 160px;
+    }
+
+    .info {
+        padding: 10px;
+        text-align: center;
+    }
+    .hotel-heading h1, .attraction-section h1{
+        font-size: 40px;
+        padding: 20px;
+    }
+
+}
+
+@media screen and ((min-width: 786px) and (max-width:996px)) {
+    .end-div {
+        margin-top: 300px;
+
+    }
 }
