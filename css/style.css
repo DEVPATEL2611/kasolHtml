@@ -22,21 +22,24 @@
 }
 .tag-line{
     background-color: rgba(219, 218, 217, 0.5);
-    width:24%;
-    font-size: 16px;
+    width:350px;
     padding: 10px 15px;
     text-align: center;
     border-radius: 50px;
     color:  rgb(38, 58, 41);  
+    margin-top: 140px;
+    font-size: 14px;
 }
 .tag-line-headings h2{
-    font-size: 60px;
     margin-top: 20px;
     color:  rgb(38, 58, 41);  
+    margin-bottom: 15px;
+    font-size: 50px;
+    font-weight: 300;
 }
 .tag-line-headings h1{
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 60px;
+    font-weight: 400;
     color:  rgb(38, 58, 41);  
     margin-bottom: 40px;
 }
@@ -53,18 +56,17 @@
     border-radius: 20px;
     color:  rgb(38, 58, 41);
 }
-.k-hover{
+/* .k-hover{
     background-color:  rgba(38, 58, 41,0.8);
     padding: 10px 30px;
     border-radius: 30px;
-}
+} */
 .explore-btn:hover{
     background-color:  rgba(38, 58, 41,0.8);
     color: white;
 }
 .end-div{
-    margin-top: 10%;
-    margin-left: 8%;
+    margin-top: 130px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -80,10 +82,104 @@
 .iconnn{
     background-color: rgba(38, 58, 41,0.8);
     border-radius: 50%;
+    font-size: 40px;
     height: 50px;
     width: 50px;
     color: white;
     padding-top: 5px;
     text-align: center;
-    margin-left: 17%;
+}
+
+.info{
+    padding-top: 40px;
+    margin-bottom: 40px;
+}
+.info div{
+    max-width: 550px;
+}
+.info h2{
+ 
+    font-size: 50px;
+}
+.info p{
+    line-height: 1.5em;
+    font-size: 18px;
+}
+.dark-btn{
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:  rgb(38, 58, 41);
+    border: 2px solid rgb(38, 58, 41);
+}
+.dark-btn:hover{
+    color:  rgb(38, 58, 41);
+    background-color: transparent;
+}
+.light-btn{
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 25px;
+    color:  rgb(38, 58, 41);
+    border: 2px solid rgb(38, 58, 41);
+    margin-left: 20px;
+}
+.light-btn:hover{
+    background-color:  rgb(38, 58, 41);
+    color: white;
+}
+.butonss{
+    margin-top: 30px;
+}
+.long-img{
+    background-image: url("../images/1.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.long1-img{
+    background-image: url("../images/2.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.long2-img{
+    background-image: url("../images/3.jpeg");
+    height: 300px;
+    background-size: cover;
+}
+.long3-img{
+    background-image: url("../images/4.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.long4-img{
+    background-image: url("../images/5.jpg");
+    height: 300px;
+    background-size: cover;
+}
+.img-text{
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 2px solid white;
+    background-color: rgba(144, 143, 143,0.5);
+    padding: 10px;
+    text-align: center;
+}
+.photo-grid{
+    /* background-color: rgba(60, 98, 85,0.7); */
+    padding-bottom: 40px;
+}
+@media screen  and (max-width:796px){
+   
+    .end-div{
+       margin-top: 160px;
+       
+    }
+    
+   
+    
 }
