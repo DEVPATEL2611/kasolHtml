@@ -3,40 +3,47 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-.landing-section {
+/* .landing-section {
     height: 100%;
     background-image: url("../images/LandingPage.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .nav-bgc {
     background-color: rgba(60, 98, 85, 0.7);
 
 }
-.nav-hover:hover{
-    color: rgb(38, 58, 41);
+.active-clr {
+    border-bottom: 2px solid white !important;
 }
-
-
 .nav-hover-item{
     border-bottom: 2px solid transparent;
 }
 
 .nav-hover-item:hover {
-    border-bottom: 2px solid rgb(38, 58, 41);
+    border-bottom: 2px solid white;
 }
 
 .txt-clr-span {
-    color: rgb(26, 95, 26);
+    /* color: rgb(26, 95, 26); */
+    color: white;
+    border: 1px solid white;
+    padding: 0px 5px;
+}
+.landing-page{
+    height: 100%;
+    width: 100%;
+}
+.landing-img{
+    height: 91vh;
+    background-image: url("../images/LandingPage.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
-.active-clr {
-    color: rgb(38, 58, 41);
-}
-
-.tag-content {
+/* .tag-content {
     margin-top: 8%;
     margin-left: 8%;
 
@@ -76,14 +83,14 @@ body{
     padding: 10px 20px;
     border-radius: 20px;
     color: rgb(38, 58, 41);
-}
+} */
 
 /* .k-hover{
     background-color:  rgba(38, 58, 41,0.8);
     padding: 10px 30px;
     border-radius: 30px;
 } */
-.explore-btn:hover {
+/* .explore-btn:hover {
     background-color: rgba(38, 58, 41, 0.8);
     color: white;
     text-decoration: none;
@@ -114,7 +121,7 @@ body{
     color: white;
     padding-top: 5px;
     text-align: center;
-}
+} */
 
 .info {
     margin-bottom: 40px;
