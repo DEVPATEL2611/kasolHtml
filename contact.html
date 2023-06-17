@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.js"></script>
+    <link rel="stylesheet" href="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <title>Useen Kasol</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="	https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg nav-bgc bg-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand ps-4 text-white fs-5" href="#">Offlimits <b><span
+                            class="fs-4 txt-clr-span">Kasol</span></b></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5">
+                        <li class="nav-item nav-hover-item   mx-3">
+                            <a class="nav-link active text-white fs-6" aria-current="page" href="#"><span
+                                    class=" fw-semibold nav-hover">Home</span></a>
+                        </li>
+                        <li class="nav-item nav-hover-item mx-3 fs-6">
+                            <a class="nav-link text-white fw-semibold" href="attractions.html" target=""><span
+                                    class="nav-hover">Attractions</span></a>
+                        </li>
+                        <li class="nav-item nav-hover-item mx-3 fs-6">
+                            <a class="nav-link text-white fw-semibold" href="stay.html"><span
+                                    class="nav-hover">About</span></a>
+                        </li>
+                        <li class="nav-item nav-hover-item mx-3 fs-6">
+                            <a class="nav-link text-white fw-semibold" href="about.html"><span
+                                    class="nav-hover">Activities</span></a>
+                        </li>
+                        <li class="nav-item nav-hover-item active-clr fs-6 ms-3  me-5">
+                            <a class="nav-link text-white fw-semibold " href="#"><span
+                                    class="nav-hover">Contact</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-section px-lg-5 py-lg-3 bg-light">
+        <div class="container pb-5">
+            <div class=" text-center  ">
+                <h1>Get in Touch</h1>
+            </div>
+            <div class="row ">
+                <div class="col-lg-7 mx-auto">
+                    <div class="card mt-2 mx-auto p-lg-4 bg-light">
+                        <div class="card-body bg-light">
+                            <div class="container">
+                                <form id="contact-form" role="form">
+                                    <div class="controls">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_name">Firstname *</label>
+                                                    <input id="form_name" type="text" name="name" class="form-control"
+                                                        placeholder="Please enter your firstname *" required="required"
+                                                        data-error="Firstname is required.">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_lastname">Lastname *</label>
+                                                    <input id="form_lastname" type="text" name="surname"
+                                                        class="form-control" placeholder="Please enter your lastname *"
+                                                        required="required" data-error="Lastname is required.">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_email">Email *</label>
+                                                    <input id="form_email" type="email" name="email"
+                                                        class="form-control" placeholder="Please enter your email *"
+                                                        required="required" data-error="Valid email is required.">
+
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label for="form_need">Please specify your need *</label>
+                                                    <select id="form_need" name="need" class="form-control"
+                                                        required="required" data-error="Please specify your need.">
+                                                        <option value="" selected disabled>--Select Your Issue--
+                                                        </option>
+                                                        <option>Book Stay</option>
+                                                        <option>Get iternery</option>
+                                                        <option>Book activites</option>
+                                                        <option>Other</option>
+                                                    </select>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <label for="form_message">Message *</label>
+                                                    <textarea id="form_message" name="message" class="form-control"
+                                                        placeholder="Write your message here." rows="4"
+                                                        required="required"
+                                                        data-error="Please, leave us a message."></textarea>
+                                                </div>
+
+                                            </div>
+
+
+                                            <div class="col-md-12">
+
+                                                <input type="submit" class="bg-custom btn-custom btn btn-success btn-send  pt-2 btn-block
+                                " value="Send Message">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.8 -->
+                </div>
+                <!-- /.row-->
+            </div>
+        </div>
+
+    </section>
+    <footer class="fot container-fluid bg-grey py-5 fot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 ">
+                            <div class="logo-part">
+                                <h2>OffLimts KASOL</h2>
+                                <p>7637 Laurel Dr. King Of Prussia, PA 19406</p>
+                                <p class="me-2">Offlimts Kasol is a Non Government Organization, being run by young
+                                    students for social reformation and building the nation with moral values and
+                                    ethics.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 px-4">
+                            <h6> About Company</h6>
+                            <p>But horizontal lines can only be a full pixel high.</p>
+                            <a href="#" class="btn-footer"> More Info </a><br>
+                            <a href="#" class="btn-footer"> Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-6 px-4">
+                            <h6> Help us</h6>
+                            <div class="row ">
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li> <a href="#"> Home</a> </li>
+                                        <li> <a href="#"> About</a> </li>
+                                        <li> <a href="#"> Service</a> </li>
+                                        <li> <a href="#"> Team</a> </li>
+                                        <li> <a href="#"> Help</a> </li>
+                                        <li> <a href="#"> Contact</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6 px-4">
+                                    <ul>
+                                        <li> <a href="#"> Cab Faciliy</a> </li>
+                                        <li> <a href="#"> Fax</a> </li>
+                                        <li> <a href="#"> Terms</a> </li>
+                                        <li> <a href="#"> Policy</a> </li>
+                                        <li> <a href="#"> Refunds</a> </li>
+                                        <li> <a href="#"> Paypal</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <h6> Newsletter</h6>
+                            <div class="social">
+                                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            </div>
+                            <form class="form-footer my-3">
+                                <input type="text" placeholder="search here...." name="search">
+                                <input type="button" value="Go">
+                            </form>
+                            <p>Explore the unseen KASOL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</body>
+
+</html>
