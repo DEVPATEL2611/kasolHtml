@@ -195,13 +195,13 @@ body {
 }
 
 .long2-img {
-    background-image: url("../images/3.jpeg");
+    background-image: url("../images/paraglidinggg.jpg");
     height: 300px;
     background-size: cover;
 }
 
 .long3-img {
-    background-image: url("../images/4.jpg");
+    background-image: url("https://img.invinciblengo.org/iconscout/f:jpeg/w:800/h:0/rt:fit/plain/https://invincible.s3.wasabisys.com/attraction/9a25e67c-2574-49b8-b5f5-d770e56d0700");
     height: 300px;
     background-size: cover;
 }
@@ -273,6 +273,9 @@ body {
     background-color: rgb(38, 58, 41) !important;
     border: 2px solid rgb(38, 58, 41) !important;
     color: white !important;
+}
+.color-custom{
+    color: rgb(38, 58, 41) !important;
 }
 .btn-pricing-custom:hover{
     background-color: transparent !important;
@@ -531,6 +534,8 @@ footer ul li a {
   .payment-section{
     max-width: 1200px;
   }
+
+
 @media screen and (max-width:500px) {
     .landing-section {
         height: 100%;
