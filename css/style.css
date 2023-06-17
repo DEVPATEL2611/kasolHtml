@@ -256,8 +256,8 @@ body {
 }
 
 .attraction-section h1 {
-    padding: 30px 100px;
-    font-size: 60px;
+    padding: 20px 100px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -269,7 +269,24 @@ body {
     background-color: transparent !important;
     color: rgb(38, 58, 41) !important;
 }
-
+.btn-pricing-custom{
+    background-color: rgb(38, 58, 41) !important;
+    border: 2px solid rgb(38, 58, 41) !important;
+    color: white !important;
+}
+.btn-pricing-custom:hover{
+    background-color: transparent !important;
+    color: black !important;
+}
+.btn-pricing-custom-light{
+    background-color: transparent !important;
+    color: black !important;
+    border: 2px solid rgb(38, 58, 41) !important;
+}
+.btn-pricing-custom-light:hover{
+    background-color: rgb(38, 58, 41) !important;
+    color: white !important;
+}
 .bg-custom-50 {
     background-color: rgba(38, 58, 41, 0.8);
 }
@@ -511,6 +528,9 @@ footer ul li a {
     margin-top:-5px;
   }
   
+  .payment-section{
+    max-width: 1200px;
+  }
 @media screen and (max-width:500px) {
     .landing-section {
         height: 100%;
