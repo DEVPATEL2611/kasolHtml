@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/contact.css">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
@@ -73,7 +74,7 @@
                  What to do in Kasol?
                 </button>
               </h2>
-              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+              <div id="flush-collapseOne" class="accordion-collapse collapse show" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                 <div class="accordion-body">One of the prime things to do in Kasol, is taking the trek to Kheerganga. Kheer Ganga (3050 meters) lies at the extreme end of Parvati valley and the last inhibited village while trekking to pin valley via Pin-Parvati pass. Kheerganga's panoramic skies and vast greenery are a much-needed delight to the trekker's eyes and especially the tired legs. It is a holy place with a hot water spring, a small temple of Lord Shiva and a bathing tank. It makes a rare combination for any trekker to bath in hot spring water when everything is covered by snow.</div>
               </div>
             </div>
@@ -99,7 +100,7 @@
             </div>
           </div>
        </section>
-       <section class="contact-section px-lg-5 py-lg-3 bg-light ">
+       <section class="contact-section px-lg-5 py-lg-3 bg-light pb-lg-5 ">
         <div class="container">
             <div class=" text-center color-custom ">
                 <h1 class="fw-light mb-lg-4 mx-3">Get in Touch</h1>
@@ -185,6 +186,46 @@
             </div>
         </div>
 
+    </section>
+    <section>
+        <div class="team-boxed bg-light">
+            <div class="container">
+                <div class="intro">
+                    <h2 class="text-center color-custom">Team </h2>
+                    <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+                </div>
+                <div class="row people">
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="box"><img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDuNHcww0RVxLfdv7YHPZQ_hJpU_IdpJ_5kg&usqp=CAU">
+                            <h3 class="name color-custom fw-normal">Dev Patel</h3>
+                            <p class="title color-custom">Founder</p>
+                            <p class="description">Dev Patel is the the Founder and Managing Trustee of Invincible and Chief Instructor at Youth Brigade.
+
+                                Being an alumni of National Defence Academy (NDA) and Himalayan Mountaineering Institute.</p>
+                            <div class="social d-flex flex-md-row flex-wrap gap-1 justify-content-center"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="box"><img class="rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYWMXDUpunc3Qz8qfwk1PmjxShzUWcmUL70g&usqp=CAU">
+                            <h3 class="name color-custom fw-normal">Shruti Vadaliya</h3>
+                            <p class="title color-custom">Co-Founder</p>
+                            <p class="description">Shruti Vadaliya is the Trustee and Former Project Advisor of project Sparsh (Adventure Activities) at Invincible.
+
+                                He is an alumnus of Sal College of Engineering. With a vision to explore new trails.</p>
+                            <div class="social d-flex flex-md-row flex-wrap gap-1 justify-content-center"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 item">
+                        <div class="box"><img class="rounded-circle" src="data:image/jpeg;base64,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">
+                            <h3 class="name color-custom fw-normal">Anunay Soodh</h3>
+                            <p class="title color-custom">Traveller</p>
+                            <p class="description">Anunay Soodh is the Creative head of Invincible NGO. Born and brought up in Amreli, he started as a volunteer with the NGO.Soon he found he have his film making skill to explore with the NGO. </p>
+                            <div class="social d-flex flex-md-row flex-wrap gap-1 justify-content-center"><a href="#"><i class="fa fa-facebook-official"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-instagram"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer class="fot container-fluid bg-grey py-5 fot">
         <div class="container">
